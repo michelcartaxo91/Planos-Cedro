@@ -1,0 +1,404 @@
+.interface{
+    width: 950px;
+    background-color: #fff;
+    margin: -18px auto 0px auto;
+    padding: 10px;
+}
+.titulo{
+    font-size: 11px;
+    text-align: left;
+    font-family: sans-serif;
+    margin: 20px;
+}
+.border{
+    display: block;
+    border: solid #ccc 1px;
+    border-style: solid;
+    margin: 20px 20px;
+}
+.border-procuradores{
+    display: block;
+    border: solid #ccc 1px;
+    border-style: solid;
+    margin: 0px 10px auto;
+    width: 540px;
+}
+.titulo.plano{
+     font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+}
+.titulo-cadastrar{
+    font-size: 12px;
+    text-align: left;
+    font-family: sans-serif;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    width: 650px;
+    height: 3;
+}
+.planos:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform:scale(1.2);
+}
+.planos.active{
+    background: #272323;
+}
+.planos.active .titulo{
+    color: #fff;
+}
+.planos.active .container{
+    color: #fff;
+}
+.planos.active .valor{
+    background-color: #f12a2a;
+}
+.planos.active .taxa{
+    color: #fff;
+}
+.planos.active .valor-mensal{
+    color: #fff;
+}
+.planos.active .taxa-manutencao{
+      color: #fff;
+}
+.standard{
+    width: 245px;
+    border: 1px solid #cfd6cf;
+    padding: 0px;
+    margin: 70px 0px 0px 70px;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+.gold{
+    width: 245px;
+    border: 1px solid #cfd6cf;
+    padding: 0px;
+    margin: 70px 0px 70px 70px;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+.platium{
+    width: 245px;
+    border: 1px solid #cfd6cf;
+    padding: 0px;
+    margin: 70px 0px 70px 70px;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+.diamond{
+    width: 245px;
+    border: 1px solid #cfd6cf;
+    padding: 0px;
+    margin: 70px 0px 70px 70px;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+.valor{
+    width: 214px;
+    height: 60px;
+    border: 1px solid #4d4e4d;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    background-color: #322f2f;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #f5f3f3;
+    font-weight: bold;
+}
+.valor-mensal{
+    text-align: justify;
+    margin: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.taxa{
+    text-align: center;
+    margin: 7px 10px 10px 10px;
+    padding: 36px 5px;
+    font-family: sans-serif;
+    font-size: 14;
+}
+.taxa-manutencao{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.form-button{
+
+    display: flex;
+    width: 100%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px 30px;
+    padding: 20px;
+}
+.botao.-voltar{
+    border-radius: 30px;
+    width: 170px;
+    height: 40;
+    background-color: #282626;
+    color: #f5f3f3;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    float: center;
+}
+
+.botao.-seguir{
+    border-radius: 30px;
+    width: 170px;
+    height: 40;
+    background-color: #990101;
+    color: #f5f3f3;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    float: center;
+
+}
+.botao.-standard{
+    width: 150;
+    height: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 33px;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #292727;
+    border-color: #292727;
+}
+input#plano_standard.check,
+input#plano_gold.check,
+input#plano_platium.check,
+input#plano_diamond.check{
+    border: 1px solid #5D5C5C;
+    display: inline-block;
+    height: 23px;
+    margin: 8px;
+    padding: 0;
+    vertical-align: text-bottom;
+    width: 35px;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.circle{
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #710a0a;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    border-style: solid;
+    margin: 0px 0px 0px 90px;
+}
+.circle-procuradores{
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #ce0d0d;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    border-style: solid;
+    margin: 0px 0px 0px 25px;
+}
+.container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark{
+    float: left;
+    height: 15px;
+    width: 15px;
+    background-color: #f5f3f3;
+    border-radius: 50px;
+    margin: 0 0 0 -25px;
+}
+.planos{
+    position: relative;
+}
+.planos .checkmark{
+    background-color: green;
+} 
+.container input: checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after,
+.checkmark:before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 10px;    
+}
+.container input:checked ~ .checkmark:after{
+    display: block;
+}
+.container .checkmark:after {
+    left: 17px;
+    top: 1px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate (50deg);
+    transform: rotate(50deg);
+}
+.checkmark:before{
+    left: 10px;
+    top: 5px;
+    height: 3px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate (10deg);
+    transform: rotate(-30deg);
+}
+.semcheck{
+    float: left;
+    height: 15px;
+    width: 15px;
+    background-color: #fdfdfd;
+    border-radius: 50px;
+    margin: 0 0 0 -25px;
+    border: solid 1px #ccc;
+}
+.procuradores{
+    text-align: right;
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.outorgados{
+    width: 500px;
+    border: 1px solid #cfd6cf;
+    padding: 0px;
+    margin: 70px 0px 0px 70px;
+    display: block;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    height: 400px;
+}
+.upload{
+    display: block;
+    border: solid #ccc 2px;
+    border-style: dashed;
+    margin: -400px 20px;
+    border-radius: 10px;
+    float: right;
+    width: 203px;
+    height: 154px;
+    text-align: center;
+}
+.formulario{
+    font-size: 12px;
+    margin: 10px;
+}
+.texto{
+        font-size: 12px;
+}
+.texto-procuradores{
+
+}
+
+.check.formulario{
+    border-radius: 5px;
+}
+.check{
+    position: absolute;
+    left: -200px;
+    opacity: 0;
+}
+.mask-check{
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 18px;
+    position: relative;
+    left: 12px;
+    border: 2px #ccc solid;
+    background-color: transparent;
+    margin: 10px;
+}
+input:checked~.mask-check{
+        background-color: green;
+        border: none;
+        width: 30px;
+       height: 30px;
+    }
+input:checked~.mask-check:before,
+input:checked~.mask-check:after{
+    content: "";
+    width: 3px;  
+    background-color: #fff;
+    display: block;
+    position: absolute;
+}
+.mask-check:before{
+    transform: rotate(-35deg);
+    transform: rotate(-35deg);
+    height: 33%;
+    top: 52%;
+    left: 16%;
+}
+.mask-check:after{
+        transform: rotate(50deg);
+        left: 50%;
+        top: 20%;
+        height: 76%;
+}
+.formulario.mask-check{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    border-top-width: 1px;
+}
+.checksim{
+
+}
+.imgupload{
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+}
+.declaracoes{
+    background: #000;
+    width: 100px;
+    float: right;
+    height: 1000;
+    padding: 130px;
+    font-size: 12px;
+    color: #fff7f7;
+    margin-top: -781px
+}
