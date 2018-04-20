@@ -1,0 +1,122 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Terceiros/Procuradores</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="procuradores_cedro.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+		<body>
+			<div class="interface">
+				<div class="terceiros-procuradores">
+					<h1 class="titulo"><b>TERCEIROS/PROCURADORES</b></h1>
+					<span class="border-procuradores"></span>
+						<div class="procuradores">
+							<h1 class="titulo-cadastrar"><b>Deseja cadastrar terceiros e/ou procuradores?</b></h1 	>
+								<label class="checksim">
+									<input type="radio" name="validar" class="check" id="Cadastrar"/>
+									<span class="formulario mask-check check2"></span><p class="texto-procuradores">Sim</p>				
+								</label>
+								<label class="checknao">
+									<input type="radio" name="validar" class="check" id="NãoCadastrar"/>
+									<span class="formulario mask-check check2"></span>
+									<p class="texto-procuradores">Não</p>				
+								</label>
+							</div>
+						<div class="outorgados">
+							<h1 class="titulo-cadastrar"><b>Marque os poderes outorgados:</b></h1>
+								<ul class="flex-linha">
+									<label class="poderes-outorgados">
+										<input type="checkbox" name="validar" class="check" id="emissao">
+										Emissão de ordem
+										<span class="formulario mask-check quadrado"></span>
+									</label>
+									<label class="poderes-outorgados">
+										<input type="checkbox" name="validar" class="check" id="emissao">
+										<span class="formulario mask-check quadrado"></span>
+										Movimentação de conta-corrente
+									</label>
+									<label class="poderes-outorgados">
+										<input type="checkbox" name="validar" class="check" id="emissao">
+										<span class="formulario mask-check quadrado"></span>
+										Movimentação de custódia
+									</label>
+									<label class="poderes-outorgados">
+										<input type="checkbox" name="validar" class="check" id="emissao">
+										<span class="formulario mask-check quadrado"></span>
+										Assinaturas de contratos de câmbio
+									</label>			
+								</ul>
+							<div class="">
+								<form class="formulario">
+										Nome do procurador<br>
+										<input class="check.formulario" type="text" name="nomeprocurador"><br>
+										Número do CPF<br>
+										<input class="check.formulario" type="text" name="cpf"><br>
+										CEP<br>
+										<input class="check.formulario" type="text" name="cep"><br>
+										<p class="meu-cep">Não sei meu CEP</p><br>
+									<div class="divider">
+										<label>
+											Telefone<br>
+											<input class="check.formulario" type="text" name="telefone"><br>
+											<img class="telefone" src="imagens\telefone.png">
+										</label>
+										<label>
+											E-mail<br>
+											<input class="check.formulario.email" type="text" name="email"><br>
+											<img class="email" src="imagens\email.jpeg">	
+										</label>
+									</div>						
+								</form>
+							</div>
+						<div class="upload">
+							<img class="imgupload" id="teste" src="imagens\upload.png">
+							<h1 class="titulo-upload"><b>Upload do documento de identificação do procurador</b></h1>
+							<p class="texto">Pode ser a foto de uma folha de cheque ou cartão do titular e dependente da conta</p>
+						</div>
+					</div>
+				<div class="adicionar">
+					<p>Adicionar terceiros ou procuradores</p>
+					<img class="add-imagem" src="imagens\adicionar.png">
+				</div>
+			</div>
+			<div class="form-button">
+				<button class="botao -voltar">VOLTAR</button>
+				<a href="procuradores_cedro.html"><button class="botao -seguir">SEGUIR</button><a/>		
+			</div>
+				<div class="declaracoes">
+						<div class="texto-numero">
+							<ol>
+								<p class="texto-declaracoes-um">1</p>
+								<p class="texto-declaracoes-dois">2 </p>
+								<p class="texto-declaracoes-tres">3</p>
+								<p class="texto-declaracoes-quatro circle-procuradores-numero">4</p>
+								<span class="border-procuradores-declaracoes"></span>
+							</ol>
+						</div>
+							<div class="plano-selecionado">
+								<p class="texto-declaracoes">Plano Selecionado</p>
+								<div class="">
+									<button class="botao-declaracoes">Standard</button>
+								</div>
+							</div>
+						<div class="circle-procuradores">
+							<img class="envelope" src="imagens\envelope.png">
+						</div>
+					<div>
+						<h1 class="titulo-declaracao">Declarações do Cliente</h1>
+						<p class="texto-declaracoes-cliente">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est magna, faucubs et justo eu, ornare congue orci</p>
+						<span class="border-procuradores-declaracoes-cliente"></span>
+					</div>
+				<div class="atendimento">
+					<p class="texto-declaracoes-atendimento">Atendimento</p>
+					<p class="texto-declaracoes-numero">0800-123-1233</p>
+					<p class="texto-declaracoes-numero">exemplo@email.com</p>
+				</div>
+			</div>	
+		</div>
+	</body>
+		<script src="jquery.js"></script>
+		<script src="planos_cedro.js"></script>
+</html>

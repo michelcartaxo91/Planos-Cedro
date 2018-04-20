@@ -168,7 +168,6 @@
     padding: 0px;
     margin: 0px;
     float: center;
-
 }
 .botao.-standard{
     width: 150;
@@ -208,17 +207,6 @@ input#plano_diamond.check{
     position: relative;
     border-style: solid;
     margin: 0px 0px 0px 90px;
-}
-.circle-procuradores{
-    background-color: #fff;
-    border-radius: 50%;
-    border-color: #ce0d0d;
-    width: 60px;
-    height: 60px;
-    overflow: hidden;
-    position: relative;
-    border-style: solid;
-    margin: 0px 0px 0px 25px;
 }
 .container{
     display: block;
@@ -291,46 +279,6 @@ input#plano_diamond.check{
     margin: 0 0 0 -25px;
     border: solid 1px #ccc;
 }
-.procuradores{
-    text-align: right;
-    font-size: 12px;
-    width: 50px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.outorgados{
-    width: 500px;
-    border: 1px solid #cfd6cf;
-    padding: 0px;
-    margin: 70px 0px 0px 70px;
-    display: block;
-    border-radius: 5px;
-    background-color: #f3f3f3;
-    height: 400px;
-}
-.upload{
-    display: block;
-    border: solid #ccc 2px;
-    border-style: dashed;
-    margin: -400px 20px;
-    border-radius: 10px;
-    float: right;
-    width: 203px;
-    height: 154px;
-    text-align: center;
-}
-.formulario{
-    font-size: 12px;
-    margin: 10px;
-}
-.texto{
-        font-size: 12px;
-}
-.texto-procuradores{
-
-}
-
 .check.formulario{
     border-radius: 5px;
 }
@@ -384,21 +332,24 @@ input:checked~.mask-check:after{
     margin-bottom: 0px;
     border-top-width: 1px;
 }
-.checksim{
-
+.img-standard{
+    width: 45px;
+    height: 55px;
+    margin-left: 3px;
 }
-.imgupload{
-    width: 50px;
-    height: 50px;
-    margin: 4px;
+.img-gold{
+    width: 45px;
+    height: 55px;
+    margin-left: 3px;
 }
-.declaracoes{
-    background: #000;
-    width: 100px;
-    float: right;
-    height: 1000;
-    padding: 130px;
-    font-size: 12px;
-    color: #fff7f7;
-    margin-top: -781px
+.img-platium{
+    width: 45px;
+    height: 60px;
+    margin-left: 3px;
+}
+.img-diamond{
+    width: 45px;
+    height: 55px;
+    margin-left: 3px;
+    margin-top: -5px;
 }

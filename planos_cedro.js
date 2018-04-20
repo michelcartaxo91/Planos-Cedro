@@ -13,5 +13,4 @@ function cor(champs)
 	$(".planos").removeClass('active');
 	champs.classList.add("active");
 	$(champs).find(".check").prop('checked', true);
-	
 } 
