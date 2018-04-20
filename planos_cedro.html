@@ -1,364 +1,321 @@
 <!DOCTYPE>
 <html lang="pt-br">
 	<head>
-    	<title>Planos Cedro</title>
-    	<meta charset="UTF-8">
-    	<link rel="stylesheet" href="planos_cedro.css" type="text/css">
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+		<title>Planos Cedro</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="planos_cedro.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 		<body>
-    		<div class="plano" id="escolha_plano">
-       			 <h1 class="titulo"><b>ESCOLHA UM PLANO</b></h1>
-        		 <span class="border"></span>
-    		</div>
-    			<div class="standard planos" id="planos" onclick="cor(this)">
-        				<label>
-            				<input type="radio" name="comportamento" class="check" id="plano_standard" />
-            				<span class="mask-check"></span>
-        				</label>
-        					<div class="circle"></div>
-        						<h1 class="titulo plano"><b>STANDARD</b></h1>
-        						<span class="border"></span>
-        				<ul>
-            				<label class="container">
-                				Bolsa e BM&F
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-           				 	</label>
-            				<label class="container">
-                				Renda fixa
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Tesouro direto
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-               					Fundos
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Posição consolidade
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Relatório diário
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Análise fundamentada
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Assistente virtual
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Recomendação
-               					<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Aparuação de IR
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Notícias Reuters
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Chat com profissionais
-                				<input type="checkbox" checked="checked">
-               	 				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Carteira cotizada
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-        				</ul>
-        			<div class="valor">
-            			<p>R$ 0,00/mês</p>
-        			</div>
-        		<div class="taxa">
-            		<p>Taxa de manutenção: <b>Isento.</b></p>
-            		<p>Corretagem mínima: <b>R$49,90</b></p>
-        		</div>
-    		</div>
-    			<div class="gold  planos" id="planos" onclick="cor(this)">
-       			 	<label>
-            			<input type="radio" name="comportamento" class="check" id="plano_gold" />
-            			<span class="mask-check"></span>
-        			</label>
-        				<div class="circle"></div>
-        					<h1 class="titulo plano"><b>GOLD</b></h1>
-        					<span class="border"></span>
-       					 <ul>
-           					<label class="container">
-                				Bolsa e BM&F
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Renda fixa
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Tesouro direto
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-               	 				Fundos
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Posição consolidade
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Relatório diário
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Análise fundamentada
-                			<input type="checkbox" checked="checked">
-                			<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Assistente virtual
-                				<input type="checkbox" checked="checked">
-                				<span class="checkmark"></span>
-            				</label>
-            				<label class="container">
-                				Recomendação
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Aparuação de IR
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Notícias Reuters
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Chat com profissionais
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-            				<label class="container">
-                				Carteira cotizada
-                				<input type="checkbox" checked="checked">
-                				<span class="semcheck"></span>
-            				</label>
-        				</ul>
-        			<div class="valor">
-            			<p>R$ 149,90/mês*</p>
-        			</div>
-        		<div class="valor-mensal">
-            		<p>*O valor mensal é revertido como crédito de corretagem, não sendo cumulativo nos meses seguintes</p>
-            		<span class="border"></span>
-        		</div>
-        			<div class="taxa-manutencao">
-            			<p>Taxa de manutenção: <b>Isento.</b></p>
-            			<p>Corretagem mínima: <b>R$39,90</b></p>
-        			</div>
-    			</div>
-    				<div class="platium planos" id="planos" onclick="cor(this)">
-        				<label>
-           		 			<input type="radio" name="comportamento" class="check" id="plano_platium" />
-            				<span class="mask-check"></span>
-        				</label>
-        					<div class="circle"></div>
-        						<h1 class="titulo plano"><b>PLATIUM</b></h1>
-        						<span class="border"></span>
-        							<ul>
-            							<label class="container">
-                							Bolsa e BM&F
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-           			 					<label class="container">
-                							Renda fixa
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-           			 					<label class="container">
-                							Tesouro direto
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-                							Fundos
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-                							Posição consolidade
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-               								 Relatório diário
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-               		 						Análise fundamentada
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-                							Assistente virtual
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-               	 							Recomendação
-                					  		<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-                							Aparuação de IR
-                							<input type="checkbox" checked="checked">
-                							<span class="checkmark"></span>
-            							</label>
-            							<label class="container">
-                							Notícias Reuters
-                							<input type="checkbox" checked="checked">
-                							<span class="semcheck"></span>
-            							</label>
-            							<label class="container">
-                							Chat com profissionais
-                							<input type="checkbox" checked="checked">
-                							<span class="semcheck"></span>
-            							</label>
-            							<label class="container">
-                							Carteira cotizada
-                							<input type="checkbox" checked="checked">
-                							<span class="semcheck"></span>
-            							</label>
-        							</ul>
-        				<div class="valor">
-            				<p>R$ 217,00/mês*</p>
-        				</div>
-        					<div class="valor-mensal">
-            						<p>*O valor mensal é revertido como crédito de corretagem, não sendo cumulativo nos meses seguintes</p>
-            					<span class="border"></span>
-        					</div>
-        				<div class="taxa-manutencao">
-            				<p>Taxa de manutenção: <b>Isento.</b></p>
-            				<p>Corretagem mínima: <b>R$29,90</b></p>
-        				</div>
-    				</div>
-    <div class="diamond planos" id="planos" onclick="cor(this)">
-        <label>
-            <input type="radio" name="comportamento" class="check" id="plano_diamond" />
-            <span class="mask-check"></span>
-        </label>
-        <div class="circle"></div>
-        <h1 class="titulo plano"><b>DIAMOND</b></h1>
-        <span class="border"></span>
-        <ul>
-            <label class="container">
-                Bolsa e BM&F
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Renda fixa
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Tesouro direto
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Fundos
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Posição consolidade
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Relatório diário
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Análise fundamentada
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Assistente virtual
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Recomendação
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Aparuação de IR
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Notícias Reuters
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Chat com profissionais
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <label class="container">
-                Carteira cotizada
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-        </ul>
-        <div class="valor">
-            <p>R$ 399,90/mês*</p>
-        </div>
-        <div class="valor-mensal">
-            <p>*O valor mensal é revertido como crédito de corretagem, não sendo cumulativo nos meses seguintes</p>
-            <span class="border"></span>
-        </div>
-        <div class="taxa-manutencao">
-            <p>Taxa de manutenção: <b>Isento.</b></p>
-            <p>Corretagem mínima: <b>R$ 9,90</b></p>
-        </div>
-    </div>
-    <div class="form-button">
-        <button class="botao -voltar">VOLTAR</button>
-        <button class="botao -seguir">SEGUIR</button>
-    </div>
-    	<script src="planos_cedro.js"></script>
+			<div class="plano" id="escolha_plano">
+				<h1 class="titulo"><b>ESCOLHA UM PLANO</b></h1>
+				<span class="border"></span>
+			</div>
+			<div class="standard planos"  id="planos" onclick="cor(this)">
+				<label>
+					<input type="radio" name="comportamento" class="check" id="plano_standard"/>
+					<span class="mask-check"></span>			
+				</label>
+					<div class="circle">
+						<img  class="img-standard" src="imagens\standard.png">
+					</div>
+						<h1 class="titulo plano"><b>STANDARD</b></h1>
+						<span class="border"></span>
+							<ul>
+								<label class="container">Bolsa e BM&F
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Renda fixa
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Tesouro direto
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Fundos
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Posição consolidade
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Relatório diário
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Análise fundamentada
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Assistente virtual
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Recomendação
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Aparuação de IR
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Notícias Reuters
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Chat com profissionais
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Carteira cotizada
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+							</ul>
+						<div class="valor">
+							<p>R$ 0,00/mês</p>
+						</div>
+						<div class="taxa">
+							<p>Taxa de manutenção: <b>Isento.</b></p>
+							<p>Corretagem mínima: <b>R$49,90</b></p>
+						</div>
+					</div>
+					<div class="gold  planos" id="planos" onclick="cor(this)">
+						<label>
+							<input type="radio" name="comportamento" class="check" id="plano_gold" />
+							<span class="mask-check"></span>			
+						</label>
+					<div class="circle">
+						<img class="img-gold" src="imagens\gold.jpeg">
+					</div>
+						<h1 class="titulo plano"><b>GOLD</b></h1>
+						<span class="border"></span>
+							<ul>
+								<label class="container">Bolsa e BM&F
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Renda fixa
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+									</label>
+								<label class="container">Tesouro direto
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Fundos
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Posição consolidade
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Relatório diário
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Análise fundamentada
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Assistente virtual
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Recomendação
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Aparuação de IR
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Notícias Reuters
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Chat com profissionais
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Carteira cotizada
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+							</ul>
+						<div class="valor">
+							<p>R$ 149,90/mês*</p>
+						</div>
+						<div class="valor-mensal">
+							<p>*O valor mensal é revertido como crédito de corretagem, não sendo cumulativo nos meses seguintes</p>
+							<span class="border"></span>
+						</div>
+						<div class="taxa-manutencao">
+							<p>Taxa de manutenção: <b>Isento.</b></p>
+							<p>Corretagem mínima: <b>R$39,90</b></p>
+						</div>						
+					</div>
+					<div class="platium planos" id="planos" onclick="cor(this)">
+					<label>
+						<input type="radio" name="comportamento" class="check" id="plano_platium" />
+						<span class="mask-check"></span>			
+					</label>
+						<div class="circle">
+							<img class="img-platium" src="imagens\premium.jpeg">
+						</div>
+							<h1 class="titulo plano"><b>PLATIUM</b></h1>
+							<span class="border"></span>
+							<ul>
+								<label class="container">Bolsa e BM&F
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Renda fixa
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Tesouro direto
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Fundos
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Posição consolidade
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Relatório diário
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Análise fundamentada
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Assistente virtual
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Recomendação
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Aparuação de IR
+									<input type="checkbox" checked="checked">
+									<span class="checkmark"></span>
+								</label>
+								<label class="container">Notícias Reuters
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Chat com profissionais
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+								<label class="container">Carteira cotizada
+									<input type="checkbox" checked="checked">
+									<span class="semcheck"></span>
+								</label>
+							</ul>
+						<div class="valor">
+							<p>R$ 217,00/mês*</p>
+						</div>
+					<div class="valor-mensal">
+						<p>*O valor mensal é revertido como crédito de corretagem, não sendo cumulativo nos meses seguintes</p>
+						<span class="border"></span>
+					</div>
+				<div class="taxa-manutencao">
+					<p>Taxa de manutenção: <b>Isento.</b></p>
+					<p>Corretagem mínima: <b>R$29,90</b></p>
+				</div>						
+			</div>
+				<div class="diamond planos" id="planos" onclick="cor(this)">
+					<label>
+						<input type="radio" name="comportamento" class="check" id="plano_diamond" />
+						<span class="mask-check"></span>			
+					</label>
+		                <div class="circle">
+							<img class="img-diamond" src="imagens\diamond.jpeg">
+						</div>
+							<h1 class="titulo plano"><b>DIAMOND</b></h1>
+							<span class="border"></span>
+						<ul>
+							<label class="container">Bolsa e BM&F
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Renda fixa
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Tesouro direto
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Fundos
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Posição consolidade
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Relatório diário
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Análise fundamentada
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Assistente virtual
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Recomendação
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Aparuação de IR
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Notícias Reuters
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Chat com profissionais
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+							<label class="container">Carteira cotizada
+								<input type="checkbox" checked="checked">
+								<span class="checkmark"></span>
+							</label>
+						</ul>
+				<div class="valor">
+					<p>R$ 399,90/mês*</p>
+				</div>
+					<div class="valor-mensal">
+						<p>*O valor mensal é revertido como crédito de corretagem, não sendo cumulativo nos meses seguintes</p>
+						<span class="border"></span>
+					</div>
+					<div class="taxa-manutencao">
+						<p>Taxa de manutenção: <b>Isento.</b></p>
+						<p>Corretagem mínima: <b>R$ 9,90</b></p>
+					</div>						
+				</div>
+			<div class="form-button">
+				<button class="botao -voltar">VOLTAR</button>
+				<a href="procuradores_cedro.html"><button class="botao -seguir">SEGUIR</button><a/>		
+			</div>
 	</body>
+			<script src="jquery.js"></script>
+			<script src="planos_cedro.js"></script>
 </html>
